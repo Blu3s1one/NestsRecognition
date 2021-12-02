@@ -7,7 +7,7 @@ First install conda on your computer. Then, on Linux just launch your cmd and on
 - conda create -n <env_name>
 - conda activate <env_name>
 - conda install python=3.8
-- git clone https://github.com/johschmidt42/PyTorch-Object-Detection-Faster-RCNN-Tutorial.git
+- git clone 'https://github.com/Blu3s1one/NestsRecognition.git'
 - cd PyTorch-Object-Detection-Faster-RCNN-Tutorial
 - pip install .
 
