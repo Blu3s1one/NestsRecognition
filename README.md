@@ -16,6 +16,7 @@ Une fois Anaconda installé, lancer les commandes suivantes dans votre invite de
 - `pip install .`
 
 Installer la dernière version de pytorch adaptée à votre OS: [pytorch.org](https://pytorch.org)
+
 Installer GDAL pour python: [gdal avec conda](https://anaconda.org/conda-forge/gdal)
 
 ## Utilisation de l'environnement et de Jupyter notebook
