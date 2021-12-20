@@ -3,9 +3,9 @@ Rendu d'un outil d'annotation, d'entraînement(Faster-RCNN) et d'inférence pour
 
 ## Prérequis
 ### Anaconda
-[Windows](https://www.anaconda.com/products/individual#windows)   (Ensuite lancer les commandes dans l'invite de commande 'anaconda prompt')
+[Installer sur Windows](https://www.anaconda.com/products/individual#windows)   (Ensuite lancer les commandes dans l'invite de commande 'anaconda prompt')
 
-[Linux](https://docs.anaconda.com/anaconda/install/linux/)        (Ensuite lancer les commandes dans le terminal bash (présent de base))
+[Installer sur Linux](https://docs.anaconda.com/anaconda/install/linux/)        (Ensuite lancer les commandes dans le terminal bash (présent de base))
 
 ## Préparation de l'environnement  
 Une fois Anaconda installé, lancer les commandes suivantes dans votre invite de commande.
