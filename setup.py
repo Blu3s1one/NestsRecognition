@@ -30,5 +30,6 @@ setuptools.setup(
         "torchsummary==1.5.1",
         "torchmetrics==0.2.0",
         "mlflow",
+        "neptune-contrib",
     ],
 )
