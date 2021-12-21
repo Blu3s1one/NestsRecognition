@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from pytorch_faster_rcnn_tutorial.metrics.bounding_box import BoundingBox
-from pytorch_faster_rcnn_tutorial.metrics.enumerators import MethodAveragePrecision
+from scripts.metrics.bounding_box import BoundingBox
+from scripts.metrics.enumerators import MethodAveragePrecision
 
 
 def calculate_ap_every_point(rec, prec):

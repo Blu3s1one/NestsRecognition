@@ -2,12 +2,12 @@
 import pathlib
 from itertools import chain
 
-from pytorch_faster_rcnn_tutorial.metrics.enumerators import MethodAveragePrecision
-from pytorch_faster_rcnn_tutorial.metrics.pascal_voc_evaluator import (
+from scripts.metrics.enumerators import MethodAveragePrecision
+from scripts.metrics.pascal_voc_evaluator import (
     get_pascalvoc_metrics,
 )
-from pytorch_faster_rcnn_tutorial.utils import from_file_to_boundingbox
-from pytorch_faster_rcnn_tutorial.utils import get_filenames_of_path
+from scripts.utils import from_file_to_boundingbox
+from scripts.utils import get_filenames_of_path
 
 # root directory
 root = pathlib.Path(r"C:\Users\johan\Desktop\Johannes\Heads")
