@@ -29,5 +29,6 @@ setuptools.setup(
         "torchvision==0.9.1",
         "torchsummary==1.5.1",
         "torchmetrics==0.2.0",
+        "mlflow",
     ],
 )
