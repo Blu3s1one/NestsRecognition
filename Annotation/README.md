@@ -2,7 +2,7 @@
 Notebook pour l'annotation des images. 
 
 ## Etape 1: Préparer les images
-Mettre les images (de n'importe quelle taille) dans le fichier Input.
+Mettre les images JPG (de n'importe quelle taille) dans le fichier Input.
 
 ## Etape 2: Lancer le notebook
 Dans le Notebook, executer simplement les cellules jusqu'à l'affichage de Napari. Une fois la première image visible, lancer la cellule correspondant à la création de classe. Créer ensuite des box sur Napari, puis passer à l'image suivante ou précédente en appuyant respectivement sur 'N' et 'B'. Relancer la cellule de création de classe pour chaque nouvelle image.
