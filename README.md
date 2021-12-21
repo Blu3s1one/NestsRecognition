@@ -34,9 +34,10 @@ Une fois Anaconda installé, lancer les commandes suivantes dans votre invite de
 
 Installer la dernière version de pytorch adaptée à votre OS: [pytorch.org](https://pytorch.org)
 
-Installer GDAL pour python: [gdal avec conda](https://anaconda.org/conda-forge/gdal)
+Installer GDAL pour python: lancer `conda install -c conda-forge gdal`  [Gdal::Anaconda.org](https://anaconda.org/conda-forge/gdal) pour plus d'informations
 
 ## Utilisation de l'environnement et de Jupyter notebook
+Attention: il existe un readme dans chaque dossier, à lire avant l'éxécution des notebooks.
 Une fois l'environnement préparé, à chaque utilisation des notebook il faudra:
 - lancer le terminal
 - `conda activate <env_name>`
