@@ -32,7 +32,7 @@ Une fois Anaconda installé, lancer les commandes suivantes dans votre invite de
 - `cd NestsRecognition` (remplacer par le chemin complet vers le dossier NestsRecognition si besoin)
 - `pip install .`
 
-Installer la dernière version de pytorch adaptée à votre OS: [pytorch.org](https://pytorch.org)
+Installer la dernière version de pytorch adaptée à votre OS, avec PIP: [pytorch.org](https://pytorch.org)
 
 Installer GDAL pour python: lancer `conda install -c conda-forge gdal`  [Gdal::Anaconda.org](https://anaconda.org/conda-forge/gdal) pour plus d'informations
 
