@@ -11,8 +11,8 @@ from neptunecontrib.api import log_table
 from torchvision.models.detection.transform import GeneralizedRCNNTransform
 from torchvision.ops import box_convert, box_area
 
-from pytorch_faster_rcnn_tutorial.metrics.bounding_box import BoundingBox
-from pytorch_faster_rcnn_tutorial.metrics.enumerators import BBFormat, BBType
+from scripts.metrics.bounding_box import BoundingBox
+from scripts.metrics.enumerators import BBFormat, BBType
 
 
 def get_filenames_of_path(path: pathlib.Path, ext: str = "*"):

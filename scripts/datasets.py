@@ -7,9 +7,9 @@ from skimage.color import rgba2rgb
 from skimage.io import imread
 from torchvision.ops import box_convert
 
-from pytorch_faster_rcnn_tutorial.transformations import ComposeDouble, ComposeSingle
-from pytorch_faster_rcnn_tutorial.transformations import map_class_to_int
-from pytorch_faster_rcnn_tutorial.utils import read_json
+from scripts.transformations import ComposeDouble, ComposeSingle
+from scripts.transformations import map_class_to_int
+from scripts.utils import read_json
 
 
 class ObjectDetectionDataSet(torch.utils.data.Dataset):

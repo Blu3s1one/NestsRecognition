@@ -13,13 +13,13 @@ from torchvision.models.detection.transform import GeneralizedRCNNTransform
 from torchvision.ops import box_convert
 from torchvision.ops import nms
 
-from pytorch_faster_rcnn_tutorial.anchor_generator import get_anchor_boxes
-from pytorch_faster_rcnn_tutorial.datasets import ObjectDetectionDataSet
-from pytorch_faster_rcnn_tutorial.datasets import ObjectDetectionDatasetSingle
-from pytorch_faster_rcnn_tutorial.transformations import re_normalize
-from pytorch_faster_rcnn_tutorial.utils import color_mapping_func
-from pytorch_faster_rcnn_tutorial.utils import enable_gui_qt
-from pytorch_faster_rcnn_tutorial.utils import read_json, save_json
+from scripts.anchor_generator import get_anchor_boxes
+from scripts.datasets import ObjectDetectionDataSet
+from scripts.datasets import ObjectDetectionDatasetSingle
+from scripts.transformations import re_normalize
+from scripts.utils import color_mapping_func
+from scripts.utils import enable_gui_qt
+from scripts.utils import read_json, save_json
 
 
 def make_bbox_napari(bbox, reverse=False):
