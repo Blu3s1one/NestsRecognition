@@ -42,3 +42,5 @@ Une fois l'environnement préparé, à chaque utilisation des notebook il faudra
 - `conda activate <env_name>`
 - `jupyter notebook`
 - chercher votre notebook et l'ouvrir.
+
+Une fois le Notebook ouvert, simplement éxecuter les cellules (cliquer sur la cellule puis sur "RUN") dans l'ordre. La plupart du temps les seuls choses à modifier se trouvent au début du notebook, dans les paramètres. Si une autre valeur est à modifier dans le notebook, ce sera précisé.
