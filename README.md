@@ -13,9 +13,12 @@ Après avoir installé les prérequis, voici les différentes utilisations possi
 - Entrainement d'un modèle (réseau de neurones) sur un dataset déjà conçu (images jpg 1024x1024 px et fichiers json contenant les anntoations) avec le notebook Entrainement.
 
 ### Inférence
-- Transformation des images TIF en images jpg avec le notebook Transformation.
 - Exécution de prédictions sur des images jpg avec un modèle entrainé avec le notebook Entrainement.
-- Transformation des prédictions pixel en prédiction géoréférencées avec les images tifs d'orgigine et le notebook Transformation.
+- 
+### Transformations
+- Faire la transformation des images TIF en images jpg avec le notebook transformations.
+- Faire la transformation de json contenant les coordonnées géographiques en json contenant les coordonnées pixel avec le notebook transformations.
+- Faire la transformation de json contenant les coordonnées pixel en json contenant les coordonées géographiques avec le notebook transformations.
 
 
 ## Prérequis
