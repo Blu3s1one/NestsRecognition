@@ -14,7 +14,7 @@ Après avoir installé les prérequis, voici les différentes utilisations possi
 
 ### Inférence
 - Exécution de prédictions sur des images jpg avec un modèle entrainé avec le notebook Entrainement.
-- 
+
 ### Transformations
 - Faire la transformation des images TIF en images jpg avec le notebook transformations.
 - Faire la transformation de json contenant les coordonnées géographiques en json contenant les coordonnées pixel avec le notebook transformations.
