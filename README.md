@@ -37,7 +37,14 @@ Une fois Anaconda installé, ouvrir le terminal puis lancer les commandes suivan
 
 Installer la dernière version de pytorch adaptée à votre OS, avec PIP: [pytorch.org](https://pytorch.org)
 
-Installer GDAL pour python: lancer `conda install -c conda-forge gdal`  [Gdal::Anaconda.org](https://anaconda.org/conda-forge/gdal) pour plus d'informations
+Créer un deuxième environnement qui servira seulement à l'éxécution du notebook Transformation. Pour cela, lancer les commandes:
+- `conda create -n <env_name>` (changer de nom)
+- `conda activate <env_name>`
+- `conda install python=3.8`
+- `cd C:\Users\tdelatouche\Documents\NestsRecognition-main` (remplacer par le chemin complet vers le dossier NestsRecognition si besoin)
+- `pip install .`
+
+puis installer GDAL pour python: lancer `conda install -c conda-forge gdal`  [Gdal::Anaconda.org](https://anaconda.org/conda-forge/gdal) pour plus d'informations
 
 ## Utilisation de l'environnement et de Jupyter notebook
 Attention: il existe un fichier readme dans chaque dossier, à lire avant l'exécution des notebooks.
@@ -45,7 +52,7 @@ Une fois l'environnement préparé, à chaque utilisation des notebook il faudra
 - lancer le terminal
 - `conda activate <env_name>`
 - `jupyter notebook`
-- chercher votre notebook (fichier .ipynb et l'ouvrir.
+- chercher votre notebook (fichier .ipynb) et l'ouvrir.
 
 Une fois le Notebook ouvert, simplement exécuter les cellules (cliquer sur la cellule puis sur "RUN") dans l'ordre. Une cellule en cours d'exécution aura un astérix à gauche.
 
